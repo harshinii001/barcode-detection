@@ -9,7 +9,7 @@
 1. By detecting the object boundary, the barcode of all the objects can be detected separately, which helps in detection of repeated barcodes, and by applying the barcode_detection.py on the detected object area barcode can be found more accurately. 
 2. background_removal.py - outputs (output3_background_removal) the images with shadows and partially removed object colour  
 3. output of background_removal.py is the input of object_edge_detection.py. Output of object_edge_detection.py is stored in the output4_edge_detection_contour. 
-4. I am working on object boundary outermost boundary identification. As the problem statement is the sequential solving of subproblems once this part is done everything can be solved easily. 
+4. I am working on object outermost boundary identification. As the problem statement is the sequential solving of subproblems once this part is done everything can be solved easily. 
 
 ## Step 3: Barcode detection
 1. barcode_bounding_box.py - Barcode decoding and detection is done using pyzbar library and output is stored in output5_barcode_detection_and_decode_with_pyzbar. 
