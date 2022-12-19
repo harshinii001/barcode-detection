@@ -12,4 +12,5 @@
 
 ## Step 3: Barcode detection
 1. barcode_bounding_box.py - Barcode decoding and detection is done using pyzbar library and output is stored in output5_barcode_detection_and_decode_with_pyzbar. 
-all barcode_barcode_detection_output, missing and partial barcode_detection_output, missing barcode_detection_output, partial barcode_detection_output has output of barcode_detection_with_text_removal.py. Here noises due to texts are removed. 
+2. all barcode_barcode_detection_output, missing and partial barcode_detection_output, missing barcode_detection_output, partial barcode_detection_output has output of barcode_detection_with_text_removal.py. Here noises due to texts are removed. 
+3. Looking forward to a pre-trained model for barcode decoding because some barcodes are not able to decode even by specifically cropping the barcode when feeding the input. 
