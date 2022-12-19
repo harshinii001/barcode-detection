@@ -44,7 +44,7 @@ for filename in os.listdir("images"):
 # Find the convex hull for all the contours
     for cnt in contours:
         #mhull = cv2.convexHull(cnt)
-        thresh = cv2.drawContours(thresh,[cnt],0,(0,0,0),15)
+        thresh = cv2.drawContours(thresh,[cnt],0,(0,0,0),5)
         #img = cv2.drawContours(img,[hull],0,(0,0,255),3)
     
 
